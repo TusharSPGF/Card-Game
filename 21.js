@@ -89,7 +89,7 @@ function winner() {
             msg.innerHTML = `Sorry , ${player} , your Rs.${ammount} is gaya`
             setTimeout(() => {
                 document.location.reload();
-            }, 3000);// location.reload()
+            }, 15000);// location.reload()
         }
         else if (sum == csum) {
             msg.innerHTML = ("IT is tie")
