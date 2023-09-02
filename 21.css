@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-image: linear-gradient(to right,red, rgb(9, 238, 215));
+    height: 100vh;
+}
+
+#cont {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    width: 30%;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+header h1 {
+    color: red;
+    font-size: 5rem;
+    margin: 0;
+}
+
+header h1 span {
+    color: green;
+}
+
+main h2,
+h4,
+h3 {
+    text-align: center;
+}
+
+main #btn {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+main #btn button {
+    width: 30%;
+    height: 2rem;
+    border-radius: 3px;
+    border: none;
+    background-color: green;
+    color: black;
+}
+
+main #btn #new {
+    background-color: red;
+}
+
+main p {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+#rbut {
+    text-align: center;
+    margin: 1rem 0rem;
+}
+
+#rbut button {
+    width: 30%;
+    height: 2rem;
+    border-radius: 3px;
+    border: none;
+    background-color: gray;
+    color: black;
+}
