@@ -86,7 +86,7 @@ function winner() {
         }
         ctotal.innerHTML = `Computer Total : ${csum}`
         if (sum > 21 || (csum <= 21 && csum > sum)) {
-            msg.innerHTML = `Sorry , ${player} , your Rs.${ammount} is gaya`
+            msg.innerHTML = `Sorry , ${player} , your Rs.${ammount} is Lost`
             setTimeout(() => {
                 document.location.reload();
             }, 15000);// location.reload()
